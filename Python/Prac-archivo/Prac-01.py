@@ -21,31 +21,28 @@ def darNombre ():
     return darNombre()
 
 def calcula_nota ():
-    pass
+    return ("Aqui ira el calculo de la nota")
 
 def darPregunta ():
-    name_student= str(input("Hola por favor digite el nombre del estudiante: "))
+    name_student= input("Hola por favor digite el nombre del estudiante: ")
+    
+    notas = {
+        "note_1": input ("Digite primera nota: "),
+        "note_2": input ("Digite segunda nota: "),
+        "note_3": input ("Digite Tercera nota: ")} 
 
-    note_1 = float(input ("Digite primera nota: "))
-    note_2 = float(input ("Digite segunda nota: "))
-    note_3 = float(input ("Digite Tercera nota: "))
+    note_1 = float(notas["note_1"])
+    note_2 = float(notas["note_2"])
+    note_3 = float(notas["note_3"])
+    
+    
+    if isinstance ( name_student, str):
+        return note_1 
+    elif        
 
-    if name_student == str:
-        return note_1
-    if name_student != str:
-        return (f"Por favor el nombre deben ser letras y no numeros {name_student}")
-    if note_1 == int:
-        return note_2
-    if note_1 != int:
-        return (f"Por favor la nota deben ser valores numericos {note_1}")
-    if note_2 == int:
-        return note_3
-    if note_2 != int:
-        return (f"Por favor la nota deben ser valores numericos {note_2}")
-    if note_3 == int:
-        return calcula_nota()
-    else:
-        return (f"Por favor la nota deben ser valores numericos {note_3}")
+
+   
+    
     
 
 def darRespuesta ():
@@ -53,3 +50,7 @@ def darRespuesta ():
 
 
 print (darPregunta())
+
+
+"Fecha inicio: 09/Enero/2026/5:00PM"
+"Fecha terminado: /Enero/2026/PM"
