@@ -17,31 +17,36 @@ El promedio final calculado.
 El estado final (aprueba o reprueba)."""
 
 
-def darNombre ():
-    return darNombre()
-
 def calcula_nota ():
     return ("Aqui ira el calculo de la nota")
 
-def darPregunta ():
+def nombreEstudiante ():
     name_student= input("Hola por favor digite el nombre del estudiante: ")
+
+    if name_student.strip():
+         return notasEstudiate()
+    else:
+         return nombreEstudiante
     
-    notas = {
+    
+def notasEstudiate (self):
+        self.notas = {
         "note_1": input ("Digite primera nota: "),
         "note_2": input ("Digite segunda nota: "),
         "note_3": input ("Digite Tercera nota: ")} 
 
-    note_1 = float(notas["note_1"])
-    note_2 = float(notas["note_2"])
-    note_3 = float(notas["note_3"])
-    
-    
-    if isinstance ( name_student, str):
-        return note_1 
-    elif        
+        note_1 = float(notas["note_1"])
+        note_2 = float(notas["note_2"])
+        note_3 = float(notas["note_3"])
+
+        if isinstance (note_1, float):
+             return note_2
+        elif isinstance (note_1, float):
+             return ("Por favor verifique que la nota sea un numero", notas["note_1"])
+        
 
 
-   
+    
     
     
 
@@ -49,7 +54,7 @@ def darRespuesta ():
     pass
 
 
-print (darPregunta())
+print (nombreEstudiante ())
 
 
 "Fecha inicio: 09/Enero/2026/5:00PM"
