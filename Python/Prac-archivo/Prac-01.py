@@ -26,29 +26,31 @@ def nombreEstudiante ():
     if name_student.strip():
          return notasEstudiate()
     else:
-         return nombreEstudiante
+         return nombreEstudiante(
+              
+         )
     
     
-def notasEstudiate (self):
-        self.notas = {
-        "note_1": input ("Digite primera nota: "),
-        "note_2": input ("Digite segunda nota: "),
-        "note_3": input ("Digite Tercera nota: ")} 
+def notasEstudiate ():
+     note_1= float(input ("Digite primera nota: "))
+     if isinstance (note_1, float):
+          return note_2
+     else:
+          return note_1
+     
+     if 
+     note_2= input ("Digite segunda nota: ")
+     print (note_2)
+     note_3= input ("Digite Tercera nota: ")
+     print (note_3)
 
-        note_1 = float(notas["note_1"])
-        note_2 = float(notas["note_2"])
-        note_3 = float(notas["note_3"])
-
-        if isinstance (note_1, float):
-             return note_2
-        elif isinstance (note_1, float):
-             return ("Por favor verifique que la nota sea un numero", notas["note_1"])
-        
 
 
-    
-    
-    
+
+
+
+
+
 
 def darRespuesta ():
     pass
