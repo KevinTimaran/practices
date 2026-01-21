@@ -33,52 +33,28 @@ def nombreEstudiante ():
     
 def notasEstudiate ():
      note_1= input ("Digite primera nota: ")
-     note_2= input ("Digite segunda nota: ")
-     note_3= input ("Digite Tercera nota: ")
 
-     # Evaluar si este este dato puede ser un numero float
-     if note_1.isdigit ():
-          if note_1 <= 5.0: 
-               calificacion_1 = float (note_1)
-               return note_2 
-     elif isinstance(note_1, str) or note_1 > 5.0:
-          return note_1 
+     try:
+          float(note_1)
+          if note_1 < 5.0:
+               note_2 = input("DIgite la segunda nota: ")
+     except ValueError:
+          print (f"Por favor digite una nota valida {note_2}")
+     
+     try:
+          float(note_2)
+          if note_2 < 5.0:
+               note_3 = input("Digite la tercera nota: ")
+     except ValueError:
+          print (f"Por favor digite una nota valida {note_3}")
 
-     if note_2.isdigit():
-          if note_2 <= 5.0:
-               calificacion_2 = float (note_2)
-               return note_3
-     elif isinstance(note_2, str) or note_2 >= 5.0:
-          return note_2
-     
-     if note_3.isdigit ():
-          if note_3 <=5.0:
-               calificacion_3= float(note_3)
-     
-     elif isinstance (note_3, str) or note_3 >= 5.0:
-          return note_3
+     try:
+          float(note_3)
+          if note_3 < 5.0:
+               return calcula_nota()
+     except:
+          print (f"Por favor digite una nota valida {note_3}")          
 
-
-"""     # Evaluar nota 1
-     if isinstance (note_1, float) and note_1 <= 5:
-          return note_2
-     elif isinstance (note_1, str) or note_1 > 5:
-          return (f"Por favor verifique que la nota sea valida {note_1}")
-     
-     
-     # Evaluar nota 2
-     if isinstance (note_2, float) and note_2 <= 5:
-          return note_3
-     elif isinstance (note_2, str) or note_2 > 5:
-          return (f"Por favor verifique que la nota sea valida {note_2}")
-     
-    
-     # Evaluar nota 3
-     if isinstance (note_3, float) and note_3 <= 5:
-          return (f"Notas agregadas correctamente {calcula_nota()}")
-     else:
-          return note_3
-"""
 
 
 
