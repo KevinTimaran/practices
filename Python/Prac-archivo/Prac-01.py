@@ -34,26 +34,29 @@ def nombreEstudiante ():
 def notasEstudiate ():
      note_1= input ("Digite primera nota: ")
 
-     try:
-          float(note_1)
-          if note_1 < 5.0:
-               note_2 = input("DIgite la segunda nota: ")
-     except ValueError:
-          print (f"Por favor digite una nota valida {note_2}")
-     
-     try:
-          float(note_2)
-          if note_2 < 5.0:
-               note_3 = input("Digite la tercera nota: ")
-     except ValueError:
-          print (f"Por favor digite una nota valida {note_3}")
+     if isinstance (note_1, float):
+          calificacion_1 = float (note_1)
+          if calificacion_1 <= 5.0:
+               note_2=input ("Digite la segunda nota: ")
+               print (note_2)
+               if isinstance (note_2, float):
+                    calificacion_2 = float (note_2)
+                    if calificacion_2 <= 5.0:
+                         note_3 = input ("Digite la tercera nota: ")
+                         print (note_3)
+                    else:
+                         print(f"Por favor digite una nota valida menor a 5.0{note_3}")
+               else:
+                    print (f"Verifica que el tipo de dato sea un numero{note_2}")
+          else:
+                print(f"Por favor digite una nota valida menor a 5.0{note_1}")
+     else:
+          print (f"Verifica que el tipo de dato sea un numero{note_1}")
 
-     try:
-          float(note_3)
-          if note_3 < 5.0:
-               return calcula_nota()
-     except:
-          print (f"Por favor digite una nota valida {note_3}")          
+                    
+
+
+
 
 
 
