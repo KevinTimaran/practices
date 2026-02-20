@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeba54d3-a78f-4e3b-8a32-487ad7d0ae84" name="Changes" comment="" />
+    <list default="true" id="eeba54d3-a78f-4e3b-8a32-487ad7d0ae84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/arrays.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +56,7 @@
     "Application.arrays.executor": "Run",
     "Application.tipos_de_referencia.executor": "Run",
     "Application.tipos_primitivos.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -68,11 +72,27 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="practices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="practices" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,6 +112,10 @@
       <workItem from="1771260922895" duration="3832000" />
       <workItem from="1771303311330" duration="307000" />
       <workItem from="1771515369888" duration="2979000" />
+      <workItem from="1771602448924" duration="1104000" />
+      <workItem from="1771603586878" duration="129000" />
+      <workItem from="1771603753932" duration="336000" />
+      <workItem from="1771604122134" duration="639000" />
     </task>
     <servers />
   </component>
