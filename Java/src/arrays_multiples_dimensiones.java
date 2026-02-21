@@ -26,5 +26,8 @@ public class arrays_multiples_dimensiones{
         int [] [] [] threeDimentionsArray = new int [3][3][3];
         threeDimentionsArray [0][0][0] = 100;
         System.out.println(Arrays.deepToString(threeDimentionsArray));
+
+
+
     }
 }
