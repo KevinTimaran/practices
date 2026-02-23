@@ -22,7 +22,7 @@ public class Ask_personal_information {
         byte questionAge = askAge.nextByte();
         age = questionAge;
 
-
+        // Print result
         System.out.println("Tu nombre es: " + name + " y Tienes: " + age + " años");
 
 
