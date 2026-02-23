@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package Teoria;
 
 public class tipos_de_referencia {
     public static void main(String[] args) {

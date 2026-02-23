@@ -1,3 +1,5 @@
+package Teoria;
+
 public class conversion_de_tipos {
     public static void main(String[] args) {
         //---------------------------------------------------------------------------------------
