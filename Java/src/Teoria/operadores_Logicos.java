@@ -22,16 +22,5 @@ public class operadores_Logicos {
         System.out.println(d);
         System.out.println(e);
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }
