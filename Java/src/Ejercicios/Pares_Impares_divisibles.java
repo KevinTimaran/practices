@@ -17,11 +17,19 @@ public class Pares_Impares_divisibles {
 
         var operatingNumber = number % 2;
 
+        if  (operatingNumber == 0) {
+            System.out.println("This number is even");
 
-        String solution = operatingNumber == 0? "The number is even":"the number is odd  ";
-        System.out.println(solution);
+        } else {
+            System.out.println("This number is odd");}
 
-
+        if (operatingNumber / 3 == 0 && operatingNumber % 4 == 0) {
+            System.out.println("This number is divisible for three and four");
+        }else if (operatingNumber / 3 == 0) {
+            System.out.println("This number is divisible for three");
+        }else if (operatingNumber / 4 == 0) {
+            System.out.println("This number is divisible for four");
+        }
 
 
 
