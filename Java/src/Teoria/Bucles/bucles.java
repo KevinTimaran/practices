@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Bucles;
 // For
 // While
 // Do While
@@ -23,6 +23,16 @@ public class bucles {
             System.out.println("Hello word " + p);
             p++;
         };
+
+        //-----------------------------------------------------
+        //This is the loop do whale
+        //-----------------------------------------------------
+        int t = 2;
+        do{
+            System.out.println("Hello word " + t);
+            t++;
+        } while (t < 5);
+
 
 
     }
