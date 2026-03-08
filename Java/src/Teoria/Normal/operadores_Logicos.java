@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 public class operadores_Logicos {
     public static void main(String[] args) {

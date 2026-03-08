@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 import java.util.Arrays;
 

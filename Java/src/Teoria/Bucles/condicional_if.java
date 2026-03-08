@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Bucles;
 
 public class condicional_if {
     public static void main(String[] args) {

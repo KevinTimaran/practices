@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 public class conversion_de_tipos {
     public static void main(String[] args) {

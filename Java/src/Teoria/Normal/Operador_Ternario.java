@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 public class Operador_Ternario {
     public static void main(String[] args) {

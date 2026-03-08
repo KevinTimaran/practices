@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 public class tipos_de_referencia {
     public static void main(String[] args) {

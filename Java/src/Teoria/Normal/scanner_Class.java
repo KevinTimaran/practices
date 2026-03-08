@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 import java.util.Scanner;
 // Now, we will use the function for ask in the terminal

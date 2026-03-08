@@ -1,4 +1,4 @@
-package Teoria;
+package Teoria.Normal;
 
 public class class_math {
     public static void main(String[] args) {
