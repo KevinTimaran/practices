@@ -1,6 +1,4 @@
-package Teoria.POO.Class;
-
-import Teoria.POO.Class.User;
+package Teoria.Curso_Programacion_POO.Class.POO.Class;
 
 public class Main {
     public static void main(String[] args) {

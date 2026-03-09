@@ -1,6 +1,4 @@
-package Teoria.POO.Propiedades_Estaticas;
-
-import Teoria.POO.Propiedades_Estaticas.User;
+package Teoria.Curso_Programacion_POO.Class.POO.Propiedades_Estaticas;
 
 public class Main {
     public static void main(String[] args) {

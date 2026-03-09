@@ -1,6 +1,4 @@
-package Teoria.POO.Metodos;
-
-import Teoria.POO.Metodos.Main;
+package Teoria.Curso_Programacion_POO.Class.POO.Valores_Iniciales;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,10 +8,8 @@ public class Main {
         user.name = "Kevin";
         user1.name = "Timaran";
 
-        user.saludar();
-        user1.saludar();
-
-
+        System.out.println(user.name + " this is ID: " + user.id);
+        System.out.println(user1.name + " this is ID: " + user1.id);
 
     }
 }
