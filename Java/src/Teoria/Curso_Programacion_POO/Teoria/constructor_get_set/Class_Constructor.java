@@ -1,4 +1,4 @@
-package Teoria.Curso_Programacion_POO.Teoria.Class;
+package Teoria.Curso_Programacion_POO.Teoria.constructor_get_set;
 // Class
 // Attributes
 // Method constructor

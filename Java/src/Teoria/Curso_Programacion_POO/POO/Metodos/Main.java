@@ -1,4 +1,4 @@
-package Teoria.Curso_Programacion_POO.Class.POO.Metodos;
+package Teoria.Curso_Programacion_POO.POO.Metodos;
 
 public class Main {
     public static void main(String[] args) {

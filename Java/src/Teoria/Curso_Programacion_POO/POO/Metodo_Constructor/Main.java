@@ -1,4 +1,4 @@
-package Teoria.Curso_Programacion_POO.Class.POO.Metodo_Constructor;
+package Teoria.Curso_Programacion_POO.POO.Metodo_Constructor;
 
 public class Main {
     public static void main(String[] args) {

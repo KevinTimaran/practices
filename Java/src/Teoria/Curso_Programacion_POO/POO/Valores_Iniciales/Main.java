@@ -1,4 +1,4 @@
-package Teoria.Curso_Programacion_POO.Class.POO.Valores_Iniciales;
+package Teoria.Curso_Programacion_POO.POO.Valores_Iniciales;
 
 public class Main {
     public static void main(String[] args) {
