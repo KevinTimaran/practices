@@ -12,10 +12,12 @@ public class metodo {
 
     }
     static void metodo1(){
+
         System.out.println("Hola mundo");
     }
 
     static void metodo2(){
+
         System.out.println("Hola mundo otra vez");
     }
 
