@@ -1,17 +1,25 @@
 package Teoria.Curso_Programacion_POO.Teoria.Herencia;
-package Teoria.Curso_Programacion_POO.Teoria.Herencia.Persona;
+
 
 public class Jefe extends Persona{
     int id_jefe;
     String departamento_jefe;
 
-    public Jefe(){
+
+    public Jefe(String departamento_jefe, int id_jefe) {
+        this.departamento_jefe = departamento_jefe;
+        this.id_jefe = id_jefe;
     }
 
-    public Jefe(int id, int cc, String nombre, String apellido, String email, int telefono, String departamento_jefe, int id_jefe) {
-        super(id, cc, nombre, apellido, email, telefono);
-        this.id_jefe = id_jefe;
+    public Jefe(String apellido, int cc, String email, int id, String nombre, int telefono, String departamento_jefe, int id_jefe) {
+        super(id, cc, email, apellido, nombre, telefono);
         this.departamento_jefe = departamento_jefe;
+        this.id_jefe = id_jefe;
+    }
+
+
+
+    public Jefe() {
     }
 
     public String getDepartamento_jefe() {

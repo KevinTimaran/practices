@@ -5,12 +5,21 @@ public class Consultor extends Persona {
     String combre_consultora;
     int num_cconsultora;
 
-    public Consultor() {}
+
+    public Consultor(String combre_consultora, int num_cconsultora) {
+        this.combre_consultora = combre_consultora;
+        this.num_cconsultora = num_cconsultora;
+    }
+
 
     public Consultor(int id, int cc, String nombre, String apellido, String email, int telefono, String combre_consultora, int num_cconsultora) {
         super(id, cc, nombre, apellido, email, telefono);
         this.combre_consultora = combre_consultora;
         this.num_cconsultora = num_cconsultora;
+    }
+
+    public Consultor() {
+
     }
 
     public String getCombre_consultora() {
