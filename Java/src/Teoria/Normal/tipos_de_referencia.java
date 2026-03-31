@@ -21,7 +21,7 @@ public class tipos_de_referencia {
         //Metodo para aliminar los espacios imnecesarios entre las palabras
         String malo = "    Chanchito    feliz";
         System.out.println(malo);
-        System.out.println(malo.trim());
+        System.out.println(malo.trim());    
     } 
 
 }
