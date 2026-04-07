@@ -4,6 +4,6 @@ public class SMSFactory  extends NotificadoFactory{
 
     @Override
     protected Mensaje crearMensaje() {
-        return null;
+        return new SMS();
     }
 }
