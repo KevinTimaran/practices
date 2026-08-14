@@ -11,6 +11,21 @@ public class FizzBuzz {
      */
 
 
+    public static void main (String[] args){
+
+        for ( int i=1; i < 101; i++ ){
+            System.out.println(i);
+
+            int fizz = i % 3;
+            int buzz = i % 5;
+
+            if (fizz == 0 && buzz == 0) {System.out.println("fizzbuzz");
+            } else if (fizz == 0) {System.out.println("fizz");
+            } else if (buzz == 0) {System.out.println("buzz");}
+        }
+    }
+
+    /**
     // First: Defined a class or method main
     public static void main(String[] args) {
          // Second: i integrate a function for. This function have a
@@ -35,5 +50,5 @@ public class FizzBuzz {
             } else System.out.println(i);
         };
 
-    }
+    }**/
 }
