@@ -13,33 +13,32 @@ import java.util.Scanner;
 
 public class Anagrama {
     public static void main (String[] args){
-        System.out.println("Enter the one word");
-        Scanner askOneWord = new Scanner(System.in);
-        String oneWord = askOneWord.nextLine();
 
+        System.out.println("Place enter your first word: ");
+        Scanner askWord = new Scanner(System.in);
 
-        System.out.println("Enter the two word");
-        Scanner askTwoWord = new Scanner(System.in);
-        String twoWord = askTwoWord.nextLine();
+        String firstWord = askWord.nextLine();
 
-        char [] listOneWord = oneWord.toCharArray();
-        char [] listTwoWord = twoWord.toCharArray();
+        //The  <toCharArray> function we make the word separate into letters
+        char []  firstLetters = firstWord.toCharArray();
 
-        if (listOneWord.length > 1  ){
-            int palabra = listOneWord.length;
+        //##############################################
+        //In this part evaluation the word
+        //##############################################
 
-            System.out.println("La palabra"+ askOneWord + "si es una anagrama debido \n" +
-                    "a que esta tiene: " + palabra + "letras" );
+        //with the function <length> we count the letter of the word
+        if (firstLetters.length > 1 ){
+            int palabra = firstLetters.length;
+            System.out.println("your word if is a anagram, a anagram of: " +palabra+ " words ");
 
-            for (int i = 0; i < listOneWord.length;  i++ ){
-                System.out.println("Letra"+i+":"+listOneWord[i]);}
+            // This is a loop that print the letters of word
+            for (int i = 0; i < firstLetters.length; i++ ){
 
-        } else {
-            int palabra = listOneWord.length;
-            System.out.println("la palabra no es un anagrama debido a que tiene"+palabra+"letras");
-
+                System.out.println("Letter: "+i+ " : " + firstLetters[i]);
+            }
+        }else {
+            System.out.println("Your word "+firstWord+ " don't is anagram because it has one letter");
         }
-
 
         /**
 
